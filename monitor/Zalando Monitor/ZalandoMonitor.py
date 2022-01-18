@@ -32,7 +32,7 @@ def monitor():
     global INSTOCK
     headers = randomheaders.LoadHeader()
     try:
-        res = requests.get(url='https://www.zalando.it/uomo/__taglia-43/?q=air+force+1', headers=headers, verify=False)
+        res = requests.get(url='https://www.zalando.it/sneakers-basse-uomo/__taglia-40.40~5.41.42.42~5.43.44~5.45.45~5.46/?q=air+force+1', headers=headers, verify=False)
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'lxml')
             products = soup.find_all('div', attrs={'class': 'kpgVnb w8MdNG cYylcv QylWsg _75qWlu iOzucJ JT3_zV DvypSJ'})
