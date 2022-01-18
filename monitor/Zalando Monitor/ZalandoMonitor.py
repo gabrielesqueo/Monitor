@@ -11,9 +11,8 @@ from bs4 import BeautifulSoup
 INSTOCK = []
 WEBHOOK = 'https://discord.com/api/webhooks/932678139954475049/uGfr_H1cFQcHYGTiDHFwz5NinD2hh6TNP1ThT64kL66AiIu2vjh5i7NhqkxX1naZtzgY'
 tempowait = 1
-tempoprecedente = 0
 resettime = 86400
-"""NON MANDA GLI AVVISI SU DISCORD"""
+
 def test_webhook():
     data = {
         "username": 'ZalandoMonitor',
@@ -61,7 +60,7 @@ def monitor():
         pass
 
 def main():
-    global tempoprecedente, INSTOCK
+    global  INSTOCK
     counter = 0
     while True:
         counter += 1
