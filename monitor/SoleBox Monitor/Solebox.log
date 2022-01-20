@@ -1,0 +1,90 @@
+2022-01-18 19:50:01,768 - root - Successfully started monitor
+2022-01-20 16:47:53,742 - root - Successfully started monitor
+2022-01-20 16:50:45,397 - root - Successfully started monitor
+2022-01-20 16:50:45,401 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2022-01-20 16:50:45,740 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/932678139954475049/uGfr_H1cFQcHYGTiDHFwz5NinD2hh6TNP1ThT64kL66AiIu2vjh5i7NhqkxX1naZtzgY HTTP/1.1" 204 0
+2022-01-20 16:50:45,743 - root - Payload delivered successfully, code 204.
+2022-01-20 16:50:45,743 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:46,153 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:46,296 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:46,299 - root - Successfully scraped site
+2022-01-20 16:50:47,302 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:47,590 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:47,701 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:47,705 - root - Successfully scraped site
+2022-01-20 16:50:48,708 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:49,228 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:49,461 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:49,464 - root - Successfully scraped site
+2022-01-20 16:50:50,471 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:50,777 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:50,925 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:50,928 - root - Successfully scraped site
+2022-01-20 16:50:51,936 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:52,234 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:52,367 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:52,370 - root - Successfully scraped site
+2022-01-20 16:50:53,385 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:53,773 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:53,930 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:53,933 - root - Successfully scraped site
+2022-01-20 16:50:54,949 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:50:55,199 - urllib3.connectionpool - https://www.solebox.com:443 "GET /IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:50:55,335 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/de_DE/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZGVfREUvUmVkaXJlY3RVUkwtU3RhcnQ%2Fc3J1bGU9c3RhbmRhcmQmb3BlbkNhdGVnb3J5PXRydWUmc3o9OTY%3D HTTP/1.1" 200 None
+2022-01-20 16:50:55,338 - root - Successfully scraped site
+2022-01-20 16:56:21,606 - root - Successfully started monitor
+2022-01-20 16:56:21,609 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2022-01-20 16:56:21,939 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/932678139954475049/uGfr_H1cFQcHYGTiDHFwz5NinD2hh6TNP1ThT64kL66AiIu2vjh5i7NhqkxX1naZtzgY HTTP/1.1" 204 0
+2022-01-20 16:56:21,941 - root - Payload delivered successfully, code 204.
+2022-01-20 16:56:21,942 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:22,234 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:22,405 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:22,409 - root - Successfully scraped site
+2022-01-20 16:56:23,424 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:23,785 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:23,929 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:23,932 - root - Successfully scraped site
+2022-01-20 16:56:24,938 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:25,210 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:25,293 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:25,296 - root - Successfully scraped site
+2022-01-20 16:56:26,307 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:26,542 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:26,613 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:26,616 - root - Successfully scraped site
+2022-01-20 16:56:27,618 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:27,858 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:27,945 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:27,948 - root - Successfully scraped site
+2022-01-20 16:56:28,962 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:29,213 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:29,295 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:29,298 - root - Successfully scraped site
+2022-01-20 16:56:30,301 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:30,532 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:30,629 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:30,632 - root - Successfully scraped site
+2022-01-20 16:56:31,642 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:31,962 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:32,063 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:32,067 - root - Successfully scraped site
+2022-01-20 16:56:33,079 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:33,435 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:33,547 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:33,551 - root - Successfully scraped site
+2022-01-20 16:56:34,553 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:34,811 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:34,891 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:34,894 - root - Successfully scraped site
+2022-01-20 16:56:35,905 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:36,283 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:36,367 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:36,369 - root - Successfully scraped site
+2022-01-20 16:56:37,385 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:37,662 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:37,757 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:37,761 - root - Successfully scraped site
+2022-01-20 16:56:38,776 - urllib3.connectionpool - Starting new HTTPS connection (1): www.solebox.com:443
+2022-01-20 16:56:39,003 - urllib3.connectionpool - https://www.solebox.com:443 "GET /en_IT/c/footwear?srule=standard&openCategory=true&sz=96 HTTP/1.1" 302 None
+2022-01-20 16:56:39,086 - urllib3.connectionpool - https://www.solebox.com:443 "GET /on/demandware.store/Sites-solebox-Site/en_IT/PX-Show?url=aHR0cHM6Ly93d3cuc29sZWJveC5jb20vb24vZGVtYW5kd2FyZS5zdG9yZS9TaXRlcy1zb2xlYm94LVNpdGUvZW5fSVQvU2VhcmNoLVNob3c%2FY2dpZD1mb290d2VhciZzcnVsZT1zdGFuZGFyZCZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej05Ng%3D%3D HTTP/1.1" 200 None
+2022-01-20 16:56:39,090 - root - Successfully scraped site
