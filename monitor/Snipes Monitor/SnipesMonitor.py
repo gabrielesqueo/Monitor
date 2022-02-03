@@ -8,13 +8,13 @@ import discord
 from bs4 import BeautifulSoup
 
 INSTOCK = []
-WEBHOOK = 'https://discord.com/api/webhooks/932919093105917952/667uWD0eipNzB1TWjj11tGDj25SejJCdQVvGlHDMPh5h3e0FufHvzDLALYJ3N0Js7G1p'
+WEBHOOK = 'https://discord.com/api/webhooks/928028413904715837/VtcJhOlm7Uh9SelBgb_t_ZWJ9klxFIcAHUwoQdKUj-FFsTbVponOpzdS7O_JFK0TAIEo'
 tempowait = 1
 resettime = 86400
 
 def test_webhook():
     data = {
-        "username": 'ZalandoMonitor',
+        "username": 'SnipesMonitor',
         "avatar_url": 'https://www.pngitem.com/pimgs/m/122-1223088_one-bot-discord-avatar-hd-png-download.png',
         "embeds": [{
             "title": "Testing Webhook",
@@ -30,28 +30,36 @@ def monitor():
     global INSTOCK
     headers = randomheaders.LoadHeader()
     try:
-        res = requests.get('https://www.snipes.it/c/shoes/sneaker/jordan%7Cnike?prefn1=size&prefv1=40%7C40.5%7C41%7C42%7C42.5%7C43%7C44%7C44.5%7C45%7C45.5%7C46&srule=Standard&openCategory=true&sz=48', headers=headers)
-        #tutto da testare da qui
+        res = requests.get('https://www.snipes.it/c/shoes?srule=Standard&prefn1=brand&prefv1=jordan%7Cnike&prefn2=size&prefv2=43&openCategory=true&sz=48', timeout=50, headers=headers, verify=False)
+
         if res.status_code == 200:
             soup = BeautifulSoup(res.text, 'lxml')
+            print (soup.find('title'))
             products = soup.find_all('div', attrs={'class': 'b-product-grid-tile js-tile-container'})
             for product in products:
                 try:
-                    article = product.find('article')
-                    item = [
-                        article.find('h3').text,  # name
-                        article.find('a')['href'],  # url
-                        article.find('span', attrs={'class':'u-6V88 ka2E9k uMhVZi FxZV-M Kq1JPK pVrzNP ZkIJC- r9BRio qXofat EKabf7 nBq1-s _2MyPg2'}).text,# brand
-                        article.find('span', attrs={'class':'u-6V88 ka2E9k uMhVZi FxZV-M _6yVObe pVrzNP cMfkVL'}).text,  # price
-                        article.find('img')['src']  # image
-                    ]
-                    trovato = False
-                    for items in INSTOCK:
-                        if item[0] == items[0]:
-                            trovato = True
-                    if trovato == False:
-                        discord.discord_webhook(item)
-                        INSTOCK.append(item)
+                    articlestyle = None
+                    articlestyle = product.find('div', attrs={"class":"b-product-tile-swatches b-carousel-slot js-plp-swatch-carousel"})
+                    print (articlestyle)
+                    if articlestyle != None:
+                        item = [
+                            product.find('span', attrs={'class':'b-product-tile-link js-product-tile-link'}).text,  # name
+                            product.find('a')['href'],  # url
+                            #Verificare i due qui sotto e capire come prendere l'articlestyle
+                            #print(product.find('span', attrs={'class':'b-product-tile-brand b-product-tile-text js-product-tile-link'})['data-brand']),# brand
+                            #print(product.find('span', attrs={'class':'b-product-tile-price-item'}).text),  # price
+                            product.find('img')['src']  # image
+                        ]
+                        print (item)
+                        trovato = False
+                        for items in INSTOCK:
+                            if item[0] == items[0]:
+                                trovato = True
+                        if trovato == False:
+                            #Problema WebHook
+                            discord.discord_webhook(item)
+                            INSTOCK.append(item)
+                            print (INSTOCK)
                 except Exception as e:
                     pass
         else:

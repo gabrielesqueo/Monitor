@@ -1,0 +1,35 @@
+2022-01-20 18:13:22,089 - root - Successfully started monitor
+2022-01-20 18:13:22,094 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2022-01-20 18:13:22,468 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/928028413904715837/VtcJhOlm7Uh9SelBgb_t_ZWJ9klxFIcAHUwoQdKUj-FFsTbVponOpzdS7O_JFK0TAIEo HTTP/1.1" 204 0
+2022-01-20 18:13:22,470 - root - Payload delivered successfully, code 204.
+2022-01-20 18:13:22,471 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.it:443
+2022-01-20 18:13:22,843 - urllib3.connectionpool - https://www.snipes.it:443 "GET /c/shoes?srule=Standard&prefn1=brand&prefv1=jordan%7Cnike&prefn2=size&prefv2=43&openCategory=true&sz=48 HTTP/1.1" 302 None
+2022-01-20 18:13:23,004 - urllib3.connectionpool - https://www.snipes.it:443 "GET /on/demandware.store/Sites-snse-SOUTH-Site/it_IT/PX-Show?url=aHR0cHM6Ly93d3cuc25pcGVzLml0L29uL2RlbWFuZHdhcmUuc3RvcmUvU2l0ZXMtc25zZS1TT1VUSC1TaXRlL2l0X0lUL1NlYXJjaC1TaG93P2NnaWQ9c2hvZXMmc3J1bGU9U3RhbmRhcmQmcHJlZm4xPWJyYW5kJnByZWZ2MT1qb3JkYW4lN0NuaWtlJnByZWZuMj1zaXplJnByZWZ2Mj00MyZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej00OA%3D%3D HTTP/1.1" 200 None
+2022-01-20 18:13:23,006 - root - Successfully scraped site
+2022-01-20 18:13:24,014 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.it:443
+2022-01-20 18:13:24,645 - urllib3.connectionpool - https://www.snipes.it:443 "GET /c/shoes?srule=Standard&prefn1=brand&prefv1=jordan%7Cnike&prefn2=size&prefv2=43&openCategory=true&sz=48 HTTP/1.1" 302 None
+2022-01-20 18:13:24,752 - urllib3.connectionpool - https://www.snipes.it:443 "GET /on/demandware.store/Sites-snse-SOUTH-Site/it_IT/PX-Show?url=aHR0cHM6Ly93d3cuc25pcGVzLml0L29uL2RlbWFuZHdhcmUuc3RvcmUvU2l0ZXMtc25zZS1TT1VUSC1TaXRlL2l0X0lUL1NlYXJjaC1TaG93P2NnaWQ9c2hvZXMmc3J1bGU9U3RhbmRhcmQmcHJlZm4xPWJyYW5kJnByZWZ2MT1qb3JkYW4lN0NuaWtlJnByZWZuMj1zaXplJnByZWZ2Mj00MyZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej00OA%3D%3D HTTP/1.1" 200 None
+2022-01-20 18:13:24,754 - root - Successfully scraped site
+2022-01-20 18:13:25,761 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.it:443
+2022-01-20 18:13:25,946 - urllib3.connectionpool - https://www.snipes.it:443 "GET /c/shoes?srule=Standard&prefn1=brand&prefv1=jordan%7Cnike&prefn2=size&prefv2=43&openCategory=true&sz=48 HTTP/1.1" 302 None
+2022-01-20 18:13:26,037 - urllib3.connectionpool - https://www.snipes.it:443 "GET /on/demandware.store/Sites-snse-SOUTH-Site/it_IT/PX-Show?url=aHR0cHM6Ly93d3cuc25pcGVzLml0L29uL2RlbWFuZHdhcmUuc3RvcmUvU2l0ZXMtc25zZS1TT1VUSC1TaXRlL2l0X0lUL1NlYXJjaC1TaG93P2NnaWQ9c2hvZXMmc3J1bGU9U3RhbmRhcmQmcHJlZm4xPWJyYW5kJnByZWZ2MT1qb3JkYW4lN0NuaWtlJnByZWZuMj1zaXplJnByZWZ2Mj00MyZvcGVuQ2F0ZWdvcnk9dHJ1ZSZzej00OA%3D%3D HTTP/1.1" 200 None
+2022-01-20 18:13:26,040 - root - Successfully scraped site
+2022-01-20 18:13:52,293 - root - Successfully started monitor
+2022-01-20 18:13:52,297 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2022-01-20 18:13:52,591 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/928028413904715837/VtcJhOlm7Uh9SelBgb_t_ZWJ9klxFIcAHUwoQdKUj-FFsTbVponOpzdS7O_JFK0TAIEo HTTP/1.1" 204 0
+2022-01-20 18:13:52,593 - root - Payload delivered successfully, code 204.
+2022-01-20 18:13:52,595 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.com:443
+2022-01-20 18:13:53,856 - urllib3.connectionpool - https://www.snipes.com:443 "GET /c/shoes?srule=New&sz=48 HTTP/1.1" 200 None
+2022-01-20 18:13:54,581 - root - Successfully scraped site
+2022-01-20 18:13:55,591 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.com:443
+2022-01-20 18:13:56,751 - urllib3.connectionpool - https://www.snipes.com:443 "GET /c/shoes?srule=New&sz=48 HTTP/1.1" 200 None
+2022-01-20 18:13:57,415 - root - Successfully scraped site
+2022-01-20 18:13:58,429 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.com:443
+2022-01-20 18:14:56,149 - root - Successfully started monitor
+2022-01-20 18:14:56,153 - urllib3.connectionpool - Starting new HTTPS connection (1): discord.com:443
+2022-01-20 18:14:56,488 - urllib3.connectionpool - https://discord.com:443 "POST /api/webhooks/928028413904715837/VtcJhOlm7Uh9SelBgb_t_ZWJ9klxFIcAHUwoQdKUj-FFsTbVponOpzdS7O_JFK0TAIEo HTTP/1.1" 204 0
+2022-01-20 18:14:56,491 - root - Payload delivered successfully, code 204.
+2022-01-20 18:14:56,492 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.com:443
+2022-01-20 18:14:59,370 - urllib3.connectionpool - https://www.snipes.com:443 "GET /c/shoes?srule=New&sz=48 HTTP/1.1" 200 None
+2022-01-20 18:15:00,000 - root - Successfully scraped site
+2022-01-20 18:15:01,006 - urllib3.connectionpool - Starting new HTTPS connection (1): www.snipes.com:443

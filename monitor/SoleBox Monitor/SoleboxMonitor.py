@@ -21,7 +21,7 @@ CONFIG = dotenv.dotenv_values()
 
 INSTOCK = []
 WEBHOOK = 'https://discord.com/api/webhooks/933754511917477948/0Ufga75knlXkNFHJw8A3DzCgxw75q-zUdUElxqJzHMkFHtfO5YHL1yKBmZh6A4oQQmzL'
-
+i = 0
 
 def scrape_main_site(headers, proxy):
     """
@@ -31,7 +31,7 @@ def scrape_main_site(headers, proxy):
     
     # Makes request to site
     url = f'https://www.solebox.com/en_IT/c/footwear?srule=standard&openCategory=true&sz=96'
-    html = requests.get(url=url, headers=headers, timeout=15, proxies=proxy)
+    html = requests.get(url=url, headers=headers, proxies=proxy)
     output = BeautifulSoup(html.text, 'html.parser')
     array = output.find_all('div', {'class': 'b-product-grid-tile js-tile-container'})
 
@@ -140,12 +140,14 @@ def comparitor(product, start):
 
 
 def monitor():
+    global i
     """
     Initiates monitor for Solebox site
     """
     print('STARTING MONITOR')
     logging.info(msg='Successfully started monitor')
-
+    i += 1
+    print (i)
     # Tests webhook URL
     test_webhook()
 

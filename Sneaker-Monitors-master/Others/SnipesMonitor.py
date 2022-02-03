@@ -103,6 +103,7 @@ def scrape_main_site(headers, proxy):
     s = requests.Session()
     html = s.get('https://www.snipes.com/c/shoes?srule=New&sz=48', headers=headers, proxies=proxy, verify=False, timeout=50)
     soup = BeautifulSoup(html.text, 'html.parser')
+    print (soup.find("title"))
     array = soup.find_all('div', {'class': 'b-product-grid-tile'})
 
     # Stores particular details in array
