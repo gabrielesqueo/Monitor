@@ -2,7 +2,7 @@ import requests
 import datetime
 import json
 def discord_webhook(product):
-    webhook='https://discord.com/api/webhooks/932667971514531941/-x3X9nQKTXEPNvrCxVwezsbQO5rjzwRy7Kkh3ld830M04CSdHJO1s6R38Oui7VPlYYUc'
+    webhook='https://discord.com/api/webhooks/932678139954475049/uGfr_H1cFQcHYGTiDHFwz5NinD2hh6TNP1ThT64kL66AiIu2vjh5i7NhqkxX1naZtzgY'
     data = {
         "username": 'ZalandoMonitor',
         "avatar_url": 'https://www.pngitem.com/pimgs/m/122-1223088_one-bot-discord-avatar-hd-png-download.png',

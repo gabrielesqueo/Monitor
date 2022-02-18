@@ -7,15 +7,14 @@ import urllib3
 import discord
 from bs4 import BeautifulSoup
 import logging
-import telebot
 
-logging.basicConfig(filename='ZalandoMonitor.log', filemode='w', format='%(asctime)s - %(message)s', level=logging.DEBUG)
+logging.basicConfig(filename='ZalandoTutaMonitor.log', filemode='w', format='%(asctime)s - %(message)s', level=logging.DEBUG)
 INSTOCK = []
+WEBHOOK = 'https://www.zalando.it/uomo/__taglia-43/?q=air+force+1'
 tempowait = 2
 resettime = 86400
 session = requests.session()
 counter = 0
-bot = telebot.TeleBot("5040856399:AAHgRISs2zYBdewTCAnfuC3RaZTvYSXTcQU")
 
 def monitor():
     global INSTOCK, res, counter
@@ -25,18 +24,14 @@ def monitor():
         try:
             headers = randomheaders.LoadHeader()
             try:
-                logging.info('pre-request')
-                res = session.get(url='https://www.zalando.it/sneakers-uomo/__taglia-38.38~5.39.40.40~5.41.42.42~5.43.44/?q=air+force+1', headers=headers, verify=False, timeout=15)
-                logging.info('post-request')
+                res = session.get(url='https://www.zalando.it/giacche-zip-uomo/__taglia-M.S.XS/?q=Nike+Sportswear+HOODIE+-+Felpa+con+zip', headers=headers, verify=False, timeout=15)
             except Exception as e:
                 logging.error(e)
             if res.status_code == 200:
                 logging.debug ('%s', res.status_code)
                 products = []
                 try:
-                    logging.info('pre-soup')
                     soup = BeautifulSoup(res.text, 'lxml')
-                    logging.info('post-soup')
                     products = soup.find_all('div', attrs={'class': 'kpgVnb w8MdNG cYylcv QylWsg _75qWlu iOzucJ JT3_zV DvypSJ'})
                 except Exception as e:
                     logging.error(e)
@@ -55,8 +50,7 @@ def monitor():
                             if item[0] == items[0]:
                                 trovato = True
                         if trovato == False:
-                            msg = f'{item[0]}\nFastLink= {item[1]}'
-                            bot.send_message(chat_id='@testZalando', text=msg)
+                            discord.discord_webhook(item)
                             INSTOCK.append(item)
                             logging.info(INSTOCK)
                     except Exception as e:
